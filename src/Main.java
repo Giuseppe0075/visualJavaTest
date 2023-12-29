@@ -11,6 +11,7 @@ import javax.swing.border.Border;
 
 public class Main{
     public static void main(String[] args) {
+        /*
         ImageIcon image = new ImageIcon("alpaca.png");  //creates an ImageIcon
         Border border = BorderFactory.createLineBorder(Color.GREEN, 3); //create a line border
         
@@ -63,8 +64,8 @@ public class Main{
         frame.add(greenPanel);
         frame.setVisible(true);                           //sets the visibility of the frame to true
         //frame.pack();                                       //resize the frame to accomodate the panel inside
-        
-       
+        */
+        MyFrame myFrame = new MyFrame();
 
     }
 }
